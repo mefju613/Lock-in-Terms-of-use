@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Use — Lock In</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap');
+
+    :root {
+      --bg: #ffffff;
+      --surface: #f7f7f7;
+      --border: #e0e0e0;
+      --text: #111111;
+      --muted: #888;
+      --accent: #8b1a1a;
+      --accent-dim: rgba(139, 26, 26, 0.06);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.75;
+      padding: 0 24px;
+    }
+
+    .wrapper {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 80px 0 120px;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      border-radius: 100px;
+      padding: 4px 12px;
+      margin-bottom: 32px;
+    }
+
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(32px, 6vw, 52px);
+      font-weight: 400;
+      line-height: 1.1;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 56px;
+      padding-bottom: 56px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .intro-box {
+      background: var(--accent-dim);
+      border: 1px solid rgba(139, 26, 26, 0.2);
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-bottom: 56px;
+      font-size: 15px;
+      color: #333;
+    }
+
+    .intro-box strong {
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--text);
+      margin-top: 56px;
+      margin-bottom: 16px;
+    }
+
+    h2::before {
+      content: attr(data-num);
+      display: inline-block;
+      color: var(--accent);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      margin-right: 12px;
+      vertical-align: middle;
+      position: relative;
+      top: -2px;
+    }
+
+    p {
+      color: #444;
+      margin-bottom: 16px;
+      font-size: 15px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0 0 16px 0;
+      padding: 0;
+    }
+
+    ul li {
+      color: #444;
+      font-size: 15px;
+      padding: 6px 0 6px 20px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 400;
+    }
+
+    .highlight-row {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin: 20px 0;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 8px 24px;
+      align-items: start;
+    }
+
+    .highlight-row .label {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      padding-top: 2px;
+    }
+
+    .highlight-row .value {
+      font-size: 14px;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 48px 0;
+    }
+
+    .footer {
+      margin-top: 80px;
+      padding-top: 32px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    @media (max-width: 520px) {
+      .highlight-row {
+        grid-template-columns: 1fr;
+      }
+      .footer {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+
+    <div class="badge">Terms of Use</div>
+    <h1>Lock In</h1>
+    <p class="meta">Last updated: April 2026 &nbsp;·&nbsp; Effective: April 2026</p>
+
+    <div class="intro-box">
+      <strong>The short version:</strong> Lock In is a tool to help you focus — use it honestly and don't try to break it. The app works entirely on your device. A subscription unlocks full features. We're not liable if you lose access to your apps during a locked session. By using Lock In, you agree to these terms.
+    </div>
+
+    <!-- 1 -->
+    <h2 data-num="01">Acceptance of terms</h2>
+    <p>By downloading, installing, or using Lock In (the "App"), you agree to be bound by these Terms of Use ("Terms"). If you do not agree to these Terms, do not use the App.</p>
+    <p>These Terms constitute a legal agreement between you and <strong style="color:#111111;">Matěj Malý</strong>, the individual developer of Lock In, based in the Czech Republic, European Union.</p>
+
+    <!-- 2 -->
+    <h2 data-num="02">Description of the app</h2>
+    <p>Lock In is an iOS application that helps users reduce screen time and digital distractions by blocking access to selected apps on their device. The App uses Apple's Screen Time API and NFC technology to enable and unlock app-blocking sessions.</p>
+    <p>Core features include:</p>
+    <ul>
+      <li>Blocking selected apps on your device using Apple's Screen Time framework</li>
+      <li>Registering an NFC card or tag as a physical key to unlock app-blocking sessions</li>
+      <li>Configuring unlock timers — how long apps are accessible after an NFC unlock (1–15 minutes) and the cooldown period before you can unlock again (5–15 minutes)</li>
+      <li>Scroll to Sleep mode — a 4-hour unlock window intended for use before bed, with a 20-hour cooldown to prevent misuse</li>
+      <li>Emergency unlocks — a limited safety valve of up to 3 emergency unlocks per calendar month</li>
+      <li>Subscription customisation — Premium subscribers can adjust unlock and cooldown durations; free users have fixed defaults (5-minute unlock, 10-minute cooldown)</li>
+      <li>Optional subscription for access to full features</li>
+    </ul>
+
+    <!-- 3 -->
+    <h2 data-num="03">Eligibility</h2>
+    <p>You must be at least 13 years of age to use Lock In. By using the App, you represent and warrant that you meet this age requirement.</p>
+    <p>If you are under the age of 18, you represent that your parent or legal guardian has reviewed and agreed to these Terms on your behalf.</p>
+
+    <!-- 4 -->
+    <h2 data-num="04">License to use the app</h2>
+    <p>Subject to your compliance with these Terms, we grant you a limited, non-exclusive, non-transferable, revocable license to download and use Lock In on any Apple device that you own or control, solely for your personal, non-commercial purposes.</p>
+    <p>You may not:</p>
+    <ul>
+      <li>Copy, modify, or create derivative works of the App or its content</li>
+      <li>Reverse engineer, decompile, or disassemble any part of the App</li>
+      <li>Rent, lease, sell, sublicense, or transfer the App to any third party</li>
+      <li>Use the App for any unlawful purpose or in violation of any applicable laws</li>
+      <li>Attempt to circumvent, disable, or interfere with the App's blocking or NFC mechanisms</li>
+      <li>Use the App to block access to apps on a device you do not own or have permission to modify</li>
+    </ul>
+
+    <!-- 5 -->
+    <h2 data-num="05">Subscriptions and payments</h2>
+    <p>Some features of Lock In require a paid subscription ("Premium"). Subscriptions are offered on terms displayed in the App and are processed exclusively through the Apple App Store via StoreKit.</p>
+    <ul>
+      <li><strong style="color:#111111;">Billing</strong> — Your subscription will be charged to your Apple ID at confirmation of purchase. Billing recurs automatically at the end of each subscription period unless cancelled.</li>
+      <li><strong style="color:#111111;">Cancellation</strong> — You may cancel your subscription at any time through your Apple ID account settings. Cancellation takes effect at the end of the current billing period; you will not be charged again, but no refunds are issued for the remaining period.</li>
+      <li><strong style="color:#111111;">Price changes</strong> — We reserve the right to change subscription prices. You will be notified in advance and can cancel before a price change takes effect.</li>
+      <li><strong style="color:#111111;">Refunds</strong> — All purchases are subject to Apple's refund policy. We do not process refunds directly. To request a refund, please contact Apple Support.</li>
+      <li><strong style="color:#111111;">Free features</strong> — A subset of features is available without a subscription. We reserve the right to change which features are free or paid at any time.</li>
+    </ul>
+    <div class="highlight-row">
+      <span class="label">Payments via</span>
+      <span class="value">Apple App Store / StoreKit</span>
+      <span class="label">Billing support</span>
+      <span class="value"><a href="https://support.apple.com/billing" target="_blank">support.apple.com/billing</a></span>
+      <span class="label">Our contact</span>
+      <span class="value"><a href="mailto:privacy@lockinapp.com">privacy@lockinapp.com</a></span>
+    </div>
+
+    <!-- 6 -->
+    <h2 data-num="06">NFC and screen time functionality</h2>
+    <p>Lock In uses your device's NFC reader and Apple's Screen Time API to deliver its core blocking functionality. By using these features, you acknowledge and agree to the following:</p>
+    <ul>
+      <li>You are responsible for safeguarding your registered NFC card or tag. If you lose or damage your NFC card, you will be unable to unlock app-blocking sessions until you register a replacement card via the App's settings. We are not liable for any consequences of being unable to unlock a session due to a lost or damaged card.</li>
+      <li>While a blocking session is active, iOS will prevent the uninstallation of apps on your device. This is an intentional security measure to prevent circumvention of the App's blocking functionality — including preventing removal of Lock In itself.</li>
+      <li>The App relies on Apple's Screen Time framework. Its behaviour may be affected by iOS updates, Screen Time restrictions set by a device manager, or changes to Apple's APIs outside our control.</li>
+      <li>Certain device configurations — including parental controls, MDM profiles, or iOS restrictions — may limit or prevent the App from functioning as expected.</li>
+      <li>We do not guarantee uninterrupted access to blocked apps and are not liable for any consequences of being locked out of an app during a session.</li>
+      <li>While apps are blocked, notifications from those apps will not be delivered to your device. This is a consequence of how Apple's Screen Time API works and is expected behaviour, not a malfunction. You may miss messages, alerts, or other notifications from blocked apps during an active session.</li>
+    </ul>
+    <p><strong style="color:#111111;">User responsibility.</strong> You choose which apps to block and configure your own unlock timers, cooldowns, and session settings. Any consequences arising from your apps being locked — including but not limited to missing messages, notifications, calls, or other time-sensitive information — are solely your responsibility. Lock In is a tool you control; you assume full responsibility for how you configure and use it.</p>
+
+    <!-- 7 -->
+    <h2 data-num="07">Acceptable use</h2>
+    <p>You agree to use Lock In only for its intended purpose: helping you manage your own screen time and digital habits on your own device.</p>
+    <p>You must not use the App to:</p>
+    <ul>
+      <li>Block apps on another person's device without their explicit consent</li>
+      <li>Circumvent parental controls, device management policies, or enterprise restrictions</li>
+      <li>Attempt to exploit, tamper with, or probe the NFC unlocking mechanism for unintended purposes</li>
+      <li>Use the App in any way that violates applicable Czech, EU, or local laws</li>
+    </ul>
+
+    <!-- 8 -->
+    <h2 data-num="08">Feedback</h2>
+    <p>If you submit feedback through the App, you grant us a non-exclusive, worldwide, royalty-free license to use that feedback for the purposes of improving the App. You will not be compensated for feedback you submit.</p>
+    <p>Feedback submissions are entirely voluntary. For details on how feedback data is handled, see our <a href="#">Privacy Policy</a>.</p>
+
+    <!-- 9 -->
+    <h2 data-num="09">Intellectual property</h2>
+    <p>Lock In and all related content, features, and functionality — including but not limited to the name, logo, design, and code — are owned by Matěj Malý and are protected by applicable intellectual property laws.</p>
+    <p>These Terms do not transfer any intellectual property rights to you. You may not use the Lock In name, logo, or branding without prior written permission — <strong style="color:#111111;">except</strong> that you are expressly permitted to use the App's name, logo, and screenshots for personal, non-commercial promotional purposes, such as sharing the App on social media, writing reviews, or recommending it to others. Any such use must accurately represent the App and must not imply any endorsement or affiliation beyond being a user. You may not misrepresent, exaggerate, or make false claims about the App's features, functionality, or results in any promotional content.</p>
+
+    <!-- 10 -->
+    <h2 data-num="10">Disclaimers</h2>
+    <p>Lock In is provided <strong style="color:#111111;">"as is"</strong> and <strong style="color:#111111;">"as available"</strong> without warranties of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.</p>
+    <p>We do not warrant that:</p>
+    <ul>
+      <li>The App will be uninterrupted, error-free, or available at all times</li>
+      <li>The App will function correctly following iOS updates or changes to Apple's Screen Time or NFC APIs</li>
+      <li>The blocking functionality will be effective in all circumstances or device configurations</li>
+      <li>Any defects or errors will be corrected</li>
+    </ul>
+    <p>Your use of the App is at your sole risk.</p>
+
+    <!-- 11 -->
+    <h2 data-num="11">Limitation of liability</h2>
+    <p>To the fullest extent permitted by applicable law, Matěj Malý shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or relating to your use of Lock In — including but not limited to loss of data, inability to access apps during a locked session, or reliance on the App's blocking features.</p>
+    <p>Our total liability to you for any claim arising out of or relating to these Terms or the App shall not exceed the amount you paid for your current subscription period, or €10, whichever is greater.</p>
+    <p>Nothing in these Terms limits liability for death or personal injury caused by negligence, fraud, or any other liability that cannot be excluded under applicable EU law.</p>
+
+    <!-- 12 -->
+    <h2 data-num="12">Governing law and disputes</h2>
+    <p>These Terms are governed by the laws of the Czech Republic, without regard to its conflict-of-law provisions. Any disputes arising out of or relating to these Terms or the App shall be subject to the exclusive jurisdiction of the courts of the Czech Republic.</p>
+    <p>If you are a consumer located in the EU, you may also have the right to access the EU Online Dispute Resolution platform at <a href="https://ec.europa.eu/consumers/odr" target="_blank">ec.europa.eu/consumers/odr</a>.</p>
+
+    <!-- 13 -->
+    <h2 data-num="13">Termination</h2>
+    <p>We reserve the right to terminate or suspend your access to the App at any time, with or without notice, if we reasonably believe you have violated these Terms.</p>
+    <p>You may stop using the App and delete it from your device at any time. Deleting the App will remove all locally stored data. For subscription cancellation, see §05.</p>
+
+    <!-- 14 -->
+    <h2 data-num="14">Changes to these terms</h2>
+    <p>We may update these Terms from time to time to reflect changes in the App, applicable law, or our practices. When we do, the "Last updated" date at the top of this page will change.</p>
+    <p>Continued use of the App after updated Terms are posted constitutes your acceptance of the revised Terms. If you do not agree to the updated Terms, you should stop using the App.</p>
+
+    <!-- 15 -->
+    <h2 data-num="15">Contact</h2>
+    <p>For any questions or concerns regarding these Terms:</p>
+    <div class="highlight-row">
+      <span class="label">Name</span>
+      <span class="value">Matěj Malý</span>
+      <span class="label">Email</span>
+      <span class="value"><a href="mailto:privacy@lockinapp.com">privacy@lockinapp.com</a></span>
+      <span class="label">Location</span>
+      <span class="value">Czech Republic, European Union</span>
+      <span class="label">Response time</span>
+      <span class="value">Within 30 days</span>
+    </div>
+
+    <div class="footer">
+      <span>© 2026 Matěj Malý · Lock In</span>
+      <span>Last updated: April 2026</span>
+    </div>
+
+  </div>
+</body>
+</html>
